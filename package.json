@@ -1,0 +1,35 @@
+{
+  "name": "restapi",
+  "version": "1.0.0",
+  "description": "rest api using restana (https://www.npmjs.com/package/restana) its fast !",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-dary-nur/restapi.git"
+  },
+  "keywords": [
+    "api",
+    "restana"
+  ],
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "author": "m-dary-nur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://gitlab.com/m-dary-nur/test-api/issues"
+  },
+  "homepage": "https://gitlab.com/m-dary-nur/test-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-query": "^1.0.0",
+    "cors": "^2.8.5",
+    "nodemailer": "^6.4.6",
+    "pg": "^8.0.0",
+    "restana": "^4.2.0"
+  }
+}
